@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forms</title>
+<style type="text/css">
+	body{
+		margin-top: 10px;
+	}
+#textfield-soyad {
+	margin-left: 5px;
+	padding-left: 10px;
+}
+#textfield-ad {
+	margin-left: 5px;
+	padding-left: 10px;
+}
+#tel {
+}
+#textarea {
+	padding-left: 10px;
+}
+#textarea {
+	width: 200px;
+	height: 50px;
+	padding-left: 0px;
+	margin-left: 40px;
+}
+#reset2 {
+	width: 100px;
+	height: 50px;
+	margin-left: 10px;
+}
+#textfield {
+	width: 150px;
+}
+</style>
+</head><body>
+
+<table width="600"
+ height="1000">
+  <tbody>
+    <tr>
+      <td>ADINIZ:</td>
+      <td><input name="textfield" type="text" id="textfield" placeholder="ADINIZ"></td>
+    </tr>
+    <tr>
+      <td>SOYADINIZ:</td>
+      <td><label for="textfield2">:</label>
+      <input name="textfield2" type="text" id="textfield2" placeholder="SOYADINIZ"></td>
+    </tr>
+    <tr>
+      <td>ŞİFRE:</td>
+      <td><label for="password">:</label>
+      <input name="password" type="password" id="password" placeholder="ŞİFRENİZ"></td>
+    </tr>
+    <tr>
+      <td height="48">E-MAİL.</td>
+      <td><label for="email">:</label>
+      <input type="email" name="email" id="email"></td>
+    </tr>
+    <tr>
+      <td height="63">ADRES</td>
+      <td><textarea name="textarea" maxlength="40" wrap="soft" id="textarea"></textarea></td>
+    </tr>
+    <tr>
+      <td>TELEFON NUMARASI:</td>
+      <td><label for="tel">:</label>
+      <input name="tel" type="tel" id="tel" maxlength="10"></td>
+    </tr>
+    <tr>
+      <td>RENK:</td>
+      <td><label for="color">:</label>
+      <input name="color" type="color" id="color" title="RENK" value="#FF6C6E"></td>
+    </tr>
+    <tr>
+      <td height="46"><input type="reset" name="reset2" id="reset2" value="Reset">
+      <input type="submit" name="submit" id="submit" value="Submit"></td>
+      
+      <td><p><br>
+      </p></td>
+    </tr>
+  </tbody>
+
+</table>
+
+</body>
+</html>
